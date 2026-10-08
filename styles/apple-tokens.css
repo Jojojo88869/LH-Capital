@@ -1,0 +1,91 @@
+/**
+ * Apple Design System Tokens - LH Capital
+ * Inspired by Apple's Human Interface Guidelines, Cupertino web design, and DIFC luxury wealth aesthetics.
+ */
+
+:root {
+  /* Color Palette - Deep OLED Dark Theme */
+  --bg-base: #030304;
+  --bg-primary: #08080a;
+  --bg-surface: #0f0f13;
+  --bg-surface-elevated: #15151c;
+  --bg-surface-glass: rgba(15, 15, 19, 0.72);
+  --bg-surface-glass-light: rgba(25, 25, 32, 0.6);
+  --bg-surface-hover: rgba(255, 255, 255, 0.04);
+  --bg-input: rgba(255, 255, 255, 0.03);
+
+  /* Apple Hairline Borders */
+  --border-hairline: rgba(255, 255, 255, 0.07);
+  --border-subtle: rgba(255, 255, 255, 0.12);
+  --border-hover: rgba(255, 255, 255, 0.22);
+  --border-accent: rgba(197, 168, 128, 0.35);
+  --border-accent-strong: #c5a880;
+
+  /* Typography Colors */
+  --text-primary: #f5f5f7;
+  --text-secondary: #a1a1a6;
+  --text-tertiary: #6e6e73;
+  --text-gold: #d8be99;
+  --text-gold-light: #ebd6b5;
+
+  /* Accent - Warm Dubai Champagne Gold & Titanium */
+  --gold-primary: #c5a880;
+  --gold-light: #e5cdad;
+  --gold-dark: #9e7f59;
+  --gold-gradient: linear-gradient(135deg, #ebd6b5 0%, #c5a880 50%, #9e7f59 100%);
+  --gold-glow: rgba(197, 168, 128, 0.18);
+  --gold-subtle-bg: rgba(197, 168, 128, 0.08);
+
+  /* Status Colors */
+  --color-success: #30d158;
+  --color-warning: #ffd60a;
+  --color-danger: #ff453a;
+
+  /* Typography System */
+  --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", Roboto, sans-serif;
+  --font-family-mono: "SF Mono", Monaco, Menlo, Consolas, monospace;
+
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Tracking (Apple style tight letter spacing for display, wider for caps) */
+  --tracking-tighter: -0.03em;
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.05em;
+  --tracking-eyebrow: 0.18em;
+
+  /* Apple Squircle Radius */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /* Apple Glassmorphism Blur */
+  --backdrop-blur-nav: blur(20px) saturate(180%);
+  --backdrop-blur-card: blur(24px) saturate(160%);
+
+  /* Apple Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.5), 0 0 1px 1px rgba(255, 255, 255, 0.06);
+  --shadow-lg: 0 20px 40px -10px rgba(0, 0, 0, 0.7), 0 0 1px 1px rgba(255, 255, 255, 0.08);
+  --shadow-gold-glow: 0 0 35px -5px rgba(197, 168, 128, 0.25);
+
+  /* Apple Fluid Transitions */
+  --ease-apple: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.32s var(--ease-apple);
+  --transition-smooth: 0.5s var(--ease-apple);
+
+  /* Layout */
+  --container-max-width: 1240px;
+  --container-padding: 24px;
+  --nav-height: 64px;
+}
